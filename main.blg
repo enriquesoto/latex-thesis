@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: alpha.bst
+Illegal, another \bibstyle command---line 295 of file main.aux
+ : \bibstyle
+ :          {unsrtnat}
+I'm skipping whatever remains of this command
+Database file #1: Bibliography2.bib
+Warning--to sort, need author or key in transparencymarketresearch2014
+Warning--empty journal in chen2015smartphone
+Warning--can't use both volume and number fields in decandia2007dynamo
+Warning--empty institution in ryu2012telemedicine
+Warning--empty booktitle in 7026272
+Warning--empty author in transparencymarketresearch2014
+Warning--empty year in Walsh_architectureof
+You've used 52 entries,
+            2543 wiz_defined-function locations,
+            864 strings with 15214 characters,
+and the built_in function-call counts, 25691 in all, are:
+= -- 2581
+> -- 1404
+< -- 33
++ -- 517
+- -- 510
+* -- 1940
+:= -- 4126
+add.period$ -- 173
+call.type$ -- 52
+change.case$ -- 395
+chr.to.int$ -- 52
+cite$ -- 60
+duplicate$ -- 990
+empty$ -- 1734
+format.name$ -- 554
+if$ -- 5351
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 51
+newline$ -- 263
+num.names$ -- 153
+pop$ -- 387
+preamble$ -- 1
+purify$ -- 448
+quote$ -- 0
+skip$ -- 850
+stack$ -- 0
+substring$ -- 1366
+swap$ -- 264
+text.length$ -- 33
+text.prefix$ -- 7
+top$ -- 0
+type$ -- 408
+warning$ -- 7
+while$ -- 234
+width$ -- 54
+write$ -- 692
+(There was 1 error message)

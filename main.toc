@@ -1,0 +1,55 @@
+\select@language {spanish}
+\contentsline {chapter}{Resumen}{\es@scroman {ii}}{dummy.1}
+\vspace {0em}
+\contentsline {chapter}{Abstract}{\es@scroman {iii}}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Contenido}{\es@scroman {iv}}{dummy.3}
+\contentsline {chapter}{Indice de Figuras}{\es@scroman {vi}}{dummy.5}
+\contentsline {chapter}{Indice de Tablas}{\es@scroman {vii}}{dummy.7}
+\contentsline {chapter}{Abreviaciones}{\es@scroman {viii}}{dummy.9}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.12}
+\contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{4}{section.17}
+\contentsline {section}{\numberline {1.2}Objetivos}{4}{section.18}
+\contentsline {section}{\numberline {1.3}Trabajos Relacionados}{5}{section.19}
+\contentsline {section}{\numberline {1.4}Organizaci\IeC {\'o}n del Documento}{8}{section.21}
+\contentsline {chapter}{\numberline {2}Conceptos}{9}{chapter.22}
+\contentsline {section}{\numberline {2.1}Computaci\IeC {\'o}n M\IeC {\'o}vil}{9}{section.23}
+\contentsline {section}{\numberline {2.2}Computaci\IeC {\'o}n en Nube}{11}{section.24}
+\contentsline {section}{\numberline {2.3}Computaci\IeC {\'o}n en Nube para M\IeC {\'o}viles}{13}{section.39}
+\contentsline {subsection}{\numberline {2.3.1}Visi\IeC {\'o}n}{13}{subsection.40}
+\contentsline {subsection}{\numberline {2.3.2}Heterogeneidad}{14}{subsection.42}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Taxonom\IeC {\'\i }a de la heterogeneidad en MCC}{15}{subsubsection.44}
+\contentsline {chapter}{\numberline {3}Offloading de C\IeC {\'o}mputo}{22}{chapter.73}
+\contentsline {section}{\numberline {3.1}Offloading}{24}{section.82}
+\contentsline {subsection}{\numberline {3.1.1}Viabilidad de \textit {offloading} }{25}{subsection.83}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Mejora del rendimiento}{26}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Conservaci\IeC {\'o}n de la energ\IeC {\'\i }a}{27}{subsubsection.88}
+\contentsline {subsection}{\numberline {3.1.2}Factores de decisi\IeC {\'o}n en \textit {offloading} }{29}{subsection.93}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Caracter\IeC {\'\i }sticas del dispositivo m\IeC {\'o}vil}{29}{subsubsection.94}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Caracter\IeC {\'\i }sticas de la aplicaci\IeC {\'o}n}{30}{subsubsection.96}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Caracter\IeC {\'\i }sticas de red}{30}{subsubsection.97}
+\contentsline {section}{\numberline {3.2}Algoritmo de offloading }{31}{section.99}
+\contentsline {section}{\numberline {3.3}Criterios para la clasificaci\IeC {\'o}n de Offloading}{32}{section.101}
+\contentsline {subsection}{\numberline {3.3.1}Particionado de la Aplicaci\IeC {\'o}n}{34}{subsection.103}
+\contentsline {subsection}{\numberline {3.3.2}Tipos de Offloading}{35}{subsection.106}
+\contentsline {subsection}{\numberline {3.3.3}Plataforma de despliegue}{36}{subsection.107}
+\contentsline {subsection}{\numberline {3.3.4}Campo de Aplicaci\IeC {\'o}n}{36}{subsection.110}
+\contentsline {chapter}{\numberline {4}Cloudlets}{39}{chapter.115}
+\contentsline {subsection}{\numberline {4.0.5}Arquitectura Cloudlet}{40}{subsection.117}
+\contentsline {chapter}{\numberline {5}Propuesta: Sistema Pytos}{43}{chapter.119}
+\contentsline {section}{\numberline {5.1}Arquitectura de Pytos}{43}{section.120}
+\contentsline {section}{\numberline {5.2}Dise\IeC {\~n}o de Pytos}{47}{section.131}
+\contentsline {section}{\numberline {5.3}Modelo de Programaci\IeC {\'o}n}{48}{section.137}
+\contentsline {subsection}{\numberline {5.3.1}Flujo del Sistema}{49}{subsection.144}
+\contentsline {section}{\numberline {5.4}Implementation}{49}{section.151}
+\contentsline {subsection}{\numberline {5.4.1}Recopilador}{50}{subsection.152}
+\contentsline {subsection}{\numberline {5.4.2}Evaluador}{51}{subsection.153}
+\contentsline {section}{\numberline {5.5}Resultados Iniciales}{51}{section.154}
+\contentsline {subsection}{\numberline {5.5.1}Configuraci\IeC {\'o}n experimental}{51}{subsection.155}
+\contentsline {subsection}{\numberline {5.5.2}Escenarios de Evaluaci\IeC {\'o}n}{53}{subsection.161}
+\contentsline {subsection}{\numberline {5.5.3}Resultados Iniciales}{54}{subsection.163}
+\contentsline {chapter}{\numberline {6}Cronograma de Trabajo}{57}{chapter.166}
+\contentsline {chapter}{\numberline {7}Conclusiones}{58}{chapter.168}
+\vspace {2em}
+\vspace {2em}
+\contentsline {chapter}{Bibliograf\'{\i }a}{60}{dummy.169}

@@ -1,0 +1,171 @@
+% Chapter 6
+
+\chapter{Anexos} % Main chapter title
+
+\label{Chapter7} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Capítulo 7. \emph{Anexos}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Diseño}
+
+\subsection{Diseño inicial de Interfaces}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale = 0.4]{./Figures/InterfazDialogoNuevoEnsayo.png}
+ % InterfazDialogoNuevoEnsayo.png: 1028x591 pixel, 72dpi, 36.27x20.85 cm, bb=0 0 1028 591
+ \caption{Interfaz inicial de la ventana de realizar un nuevo ensayo}
+\end{figure}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.4,keepaspectratio=true]{./Figures/interfazEjecucionTest.png}
+ % interfazEjecucionTest.png: 1028x591 pixel, 72dpi, 36.27x20.85 cm, bb=0 0 1028 591
+ \caption{Interfaz inicial de la ventana de la ejecución del programa}
+\end{figure}
+
+\clearpage 
+
+\subsection{Diseño de Diagramas UML2}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.45,keepaspectratio=true]{./Figures/useCaseDiagram.jpg}
+ % useCaseDiagram.jpg: 798x400 pixel, 72dpi, 28.15x14.11 cm, bb=0 0 798 400
+ \caption{Diagrama de Casos de Uso UML2}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale = 0.45,keepaspectratio=true]{./Figures/classDiagram.jpg}
+ % classDiagram.jpg: 981x786 pixel, 72dpi, 34.61x27.73 cm, bb=0 0 981 786
+ \caption{Diagrama de Clases UML2}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./Figures/componentDiagram.jpg}
+ % componentDiagram.jpg: 707x556 pixel, 72dpi, 24.94x19.61 cm, bb=0 0 707 556
+ \caption{Diagrama de Componentes UML2}
+\end{figure}
+
+\clearpage
+
+\section{Fotos de la máquina de pruebas de tensión}
+
+\begin{figure}[h]
+    \centering
+    \subfigure[Parte mecánica del
+Sistema de prueba de tensión]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen1.png}
+        \label{fig:first_sub}
+    }
+    \subfigure[Ganchos de la
+Máquina de Prueba de Tensión]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen2.png}
+        \label{fig:second_sub}
+    }
+    \subfigure[Máquina recubierta para reducir interferencia externa de la luz]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen3.png}
+        \label{fig:third_sub}
+    }
+    \subfigure[Máquina recubierta para reducir interferencia externa de la luz]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen4.png}
+        \label{fig:third_sub}
+    }
+    %\caption{Diversas tomas de la parte mecánica de la máquina y en funcionamiento}
+    \label{fig:sample_subfigures}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+    \centering
+    \subfigure[Parte mecánica del
+Sistema de prueba de tensión]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen5.png}
+        \label{fig:first_sub}
+    }
+    \subfigure[Ganchos de la
+Máquina de Prueba de Tensión]
+    {
+        \includegraphics[scale=0.2,keepaspectratio=true]{./Figures/anexoImagen6.png}
+        \label{fig:second_sub}
+    }
+    \subfigure[Máquina recubierta para reducir interferencia externa de la luz]
+    {
+        \includegraphics[scale=0.3,keepaspectratio=true]{./Figures/anexoImagen7.png}
+        \label{fig:third_sub}
+    }
+    \subfigure[Máquina recubierta para reducir interferencia externa de la luz]
+    {
+        \includegraphics[scale=0.2,keepaspectratio=true]{./Figures/anexoImagen8.png}
+        \label{fig:third_sub}
+    }
+    %\caption{Diversas tomas de la parte mecánica de la máquina y en funcionamiento}
+    \label{fig:sample_subfigures}
+\end{figure}
+
+\section{Muestras colores tomadas de los videos para establecer rango HSV a usar}
+
+\begin{table}[h]
+\begin{tabular}{llllllll}
+   & Valores reales &     &     &     & Valores OpenCV &        &        \\
+   &                & h   & s   & v   & h              & s      & v      \\
+1  & Ensayo 1       & 221 & 78  & 35  & 110,5          & 198,9  & 89,25  \\
+2  &                & 230 & 98  & 53  & 115            & 249,9  & 135,15 \\
+3  & Min(0)         & 229 & 90  & 27  & 114,5          & 229,5  & 68,85  \\
+4  &                & 234 & 79  & 59  & 117            & 201,45 & 150,45 \\
+5  &                & 227 & 65  & 73  & 113,5          & 165,75 & 186,15 \\
+6  &                & 231 & 92  & 44  & 115,5          & 234,6  & 112,2  \\
+7  & Min(13:08)     & 226 & 54  & 65  & 113            & 137,7  & 165,75 \\
+8  &                & 228 & 52  & 80  & 114            & 132,6  & 204    \\
+9  &                & 230 & 93  & 47  & 115            & 237,15 & 119,85 \\
+10 &                & 229 & 84  & 71  & 114,5          & 214,2  & 181,05 \\
+11 &                & 231 & 93  & 64  & 115,5          & 237,15 & 163,2  \\
+12 &                & 223 & 98  & 62  & 111,5          & 249,9  & 158,1  \\
+13 & Ensayo 2       & 235 & 83  & 50  & 117,5          & 211,65 & 127,5  \\
+14 & Min(0)         & 227 & 67  & 66  & 113,5          & 170,85 & 168,3  \\
+15 &                & 229 & 100 & 57  & 114,5          & 255    & 145,35 \\
+16 &                & 227 & 81  & 72  & 113,5          & 206,55 & 183,6  \\
+17 &                & 232 & 72  & 77  & 116            & 183,6  & 196,35 \\
+18 &                & 226 & 73  & 57  & 113            & 186,15 & 145,35 \\
+19 & Min(8:45)      & 231 & 63  & 58  & 115,5          & 160,65 & 147,9  \\
+20 &                & 234 & 62  & 63  & 117            & 158,1  & 160,65 \\
+21 &                & 226 & 64  & 50  & 113            & 163,2  & 127,5  \\
+22 &                & 227 & 54  & 58  & 113,5          & 137,7  & 147,9  \\
+23 &                & 223 & 80  & 80  & 111,5          & 204    & 204    \\
+24 &                & 236 & 74  & 53  & 118            & 188,7  & 135,15 \\
+25 & Ensayo 3       & 215 & 45  & 96  & 107,5          & 114,75 & 244,8  \\
+26 & Min(0)         & 227 & 69  & 94  & 113,5          & 175,95 & 239,7  \\
+27 &                & 228 & 88  & 90  & 114            & 224,4  & 229,5  \\
+28 &                & 223 & 83  & 87  & 111,5          & 211,65 & 221,85 \\
+29 &                & 229 & 80  & 80  & 114,5          & 204    & 204    \\
+30 &                & 227 & 80  & 75  & 113,5          & 204    & 191,25 \\
+31 & Min(12:16)     & 211 & 52  & 98  & 105,5          & 132,6  & 249,9  \\
+32 &                & 216 & 71  & 100 & 108            & 181,05 & 255    \\
+33 &                & 219 & 86  & 98  & 109,5          & 219,3  & 249,9  \\
+34 &                & 211 & 87  & 85  & 105,5          & 221,85 & 216,75 \\
+35 &                & 211 & 43  & 100 & 105,5          & 109,65 & 255    \\
+36 &                & 227 & 77  & 93  & 113,5          & 196,35 & 237,15 \\
+37 & Ensayo 4       & 223 & 79  & 89  & 111,5          & 201,45 & 226,95 \\
+38 & Min(0)         & 223 & 75  & 81  & 111,5          & 191,25 & 206,55 \\
+39 &                & 230 & 93  & 67  & 115            & 237,15 & 170,85 \\
+40 &                & 232 & 100 & 54  & 116            & 255    & 137,7  \\
+41 &                & 224 & 70  & 100 & 112            & 178,5  & 255    \\
+42 &                & 219 & 87  & 62  & 109,5          & 221,85 & 158,1  \\
+43 & Min(12:39)     & 215 & 77  & 95  & 107,5          & 196,35 & 242,25 \\
+44 &                & 226 & 91  & 92  & 113            & 232,05 & 234,6  \\
+45 &                & 202 & 90  & 68  & 101            & 229,5  & 173,4  \\
+46 &                & 209 & 52  & 86  & 104,5          & 132,6  & 219,3  \\
+47 &                & 218 & 80  & 100 & 109            & 204    & 255    \\
+48 &                & 222 & 84  & 100 & 111            & 214,2  & 255   
+\end{tabular}
+\end{table}

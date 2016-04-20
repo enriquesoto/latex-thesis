@@ -1,0 +1,327 @@
+% Chapter 2
+
+\chapter{Conceptos} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Capítulo 2. \emph{Conceptos}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+A fin de llevar un claro entendimiento a lo largo del trabajo, es necesario conocer y entender los términos fundamentales en los cuales 
+se basa la presente investigación. Se describen los conceptos básicos de computación móvil y computación en nube.
+
+\section{Computación Móvil}
+
+Según Talukdar \cite{talukdar2010mobile}, la computación móvil puede ser definida como un entorno de computación de movilidad física.
+En el cual, el usuario de un entorno de computación 
+móvil estará disponible para acceder a sus datos, información, u otro objeto lógico desde cualquier dispositivo en cualquier red mientras se 
+está en movimiento. Un sistema de computación móvil permite al usuario realizar tareas en todas partes como: (1) navegar en Internet,
+(2) acceder a datos corporativos (negocios e información) o (3) acceder a datos de información personal (registro médico o agenda personal). 
+Con el objetivo de que el entorno de computación móvil sea ubicuo, es necesario que la comunicación sea expandida sobre los dos medios:
+cableados e inalámbricos. 
+
+En tanto, Imielinski y Korth ~\cite{raey} afirman que ``La computación móvil ya no necesita que los usuarios mantengan una posición fija y universalmente 
+conocida en la red y permite casi movilidad sin restricciones'', mientras que Satyanarayana ~\cite{Satyanarayanan:2011:MCN:2016598.2016600} aclara 
+que la visión de la computación móvil es `` Información al alcance de tus dedos en cualquier momento, en cualquier lugar''. Podemos definir
+el entorno de computación como móvil si este soporta uno o más de las siguientes características\cite{talukdar2010mobile}: 
+
+\begin{itemize}
+ \item \textit{Movilidad del Usuario}: El usuario debe tener libertad para trasladarse desde una ubicación física a otra y usar el mismo servicio.
+ El servicio podría estar en una casa o una red remota. Por ejemplo, un usuario que se desplaza desde Arequipa hacia São Paulo y usa Internet 
+ para acceder a una determinada aplicación corporativa, lo hará de la misma forma que el usuario lo usa en casa. 
+ \item \textit{Movilidad de Red}: La movilidad de red lidia con dos tipos de casos de uso. En un caso, el usuario se mueve desde una red a otra y usa
+ el mismo servicio sin problemas. Un ejemplo podría ser, cuando un usuario se traslada desde la red WiFi de la Universidad y cambia a una red 3G
+ fuera del campus. En el otro caso, la red por si misma es móvil como en una red Ad hoc Móvil (MANET, Mobile Ad hoc Network). En una red MANET, cada 
+ nodo en la red es una combinación de un anfitrión o \textit{host} y un punto de acceso. A medida que los nodos se mueven, los puntos de acceso 
+ dentro de la red también se desplazan cambiando dinámicamente la estructura de la tabla de ruta.  Tales tipos de redes son usadas en campos 
+ de guerra o redes de sensores, donde los puntos de acceso/nodos se mueven constantemente.
+ \item \textit{Movilidad del dispositivo}: Se debe permitir al usuario cambiar de un dispositivo a otro y usar el mismo servicio sin problemas.
+ Un ejemplo podría ser el caso de una agenda personal virtual que pueda ser accedida desde la rúa, de igual forma que desde el hogar.
+\end{itemize}
+
+
+
+
+\begin{comment}
+Muchos tipos de computadoras móviles fueron introducidas a finales del siglo pasado, incluyendo: Asistente Digital Personal (PDA, por 
+sus siglas en inglés), teléfonos inteligentes o \textit{smartphones}, \textit{tablets}, y computadoras wearables. Tales computadoras son descritas 
+a continuación. 
+
+\subsection{Asistente Digital Personal}
+
+Un PDA, también conocido como computadora \textit{palm} o asistente de datos personales, es un dispositivo móvil que funciona como un administrador 
+de información personal. Los PDA son considerados ampliamente obsoletos con la adopción de los \textit{smartphones} 
+
+\subsection{Smartphone}
+
+\subsection{Tablet}
+
+\subsection{Wearables Computers}
+
+El término ``Computación Móvil'' es usado para describir el uso de los dispositivos de cómputo a distancia, es decir, lejos del usual centro de trabajo
+fijo. La tecnología de la Computación Móvil permite a los usuarios móviles: (a) crear; (b) acceder; (c) procesar, (d) almacenar; y (e) comunicar
+Información sin ser limitado a una sola posición. Extendiendo el alcance del sistema de información fijo de una organización. Asimismo,
+la Computación Móvil facilita la interacción entre personas 
+
+
+\end{comment}
+
+\section{Computación en Nube}
+
+La computación en nube es la entrega de servicios en vez de un producto. Como el Instituto Nacional de Estándares y Tecnología
+(NIST, National Institute of Standards and Technology), la describe~\cite{mell2009nist}: ``un modelo que permite de manera 
+conveniente, acceso de red bajo demanda, ubicuo y conveniente a un conjunto compartido de recursos computacionales configurables (p. ej. Redes,
+servidores, almacenamiento, aplicaciones y servicios) que pueden ser otorgados rápidamente y liberados con el menor esfuerzo administrativo o
+interacción con el proveedor del servicio''. 
+
+Esta definición incluye arquitecturas en nube, seguridad, y despliegue de estrategias. Según \cite{dillon2010cloud}, cinco elementos esenciales describen a la computación 
+en nube:
+
+\begin{enumerate}
+ \item \textbf{Servicio automático bajo demanda:} Un consumidor con una necesidad instantánea puede disponer de recursos (como CPU, almacenamiento, uso 
+ de software, entre otros) de manera automática sin requerir interacción directa con el proveedor de estos recursos.
+ \item \textbf{Amplio acceso de Red:} Los recursos computacionales son entregados por la red de Internet y usados por varias aplicaciones de 
+ clientes con plataformas heterogéneas (celulares, objetos de Internet de las Cosas, navegadores web móviles, etc.)
+ \item \textbf{Agrupamiento de Recursos:} Los recursos de un proveedor en nube están agrupados por dos motivos: economía de escala y especialización. El resultado de este modelo
+ es que los recursos de computación físicos son invisibles al consumidor, quien generalmente desconoce la ubicación, formación, funcionamiento, 
+ de estos recursos.
+ \item \textbf{Rápida elasticidad:} Para los usuarios, los recursos computacionales son elásticos sin dependencias contractuales, es decir, que
+ un consumidor puede escalar hacia arriba rápidamente si la demanda lo requiere, o escalar hacia  abajo rápidamente sin diligencias.
+ \item \textbf{Medición del servicio:} A pesar de que los recursos están agrupados en una misma infraestructura, la computación en la nube permite
+ usar mecanismos para medir el uso de estos recursos por cada consumidor individual.
+ 
+\end{enumerate}
+
+Adicionalmente a estas 5 características esenciales, la computación en nube se categoriza en 3 principales tipos. 
+
+\begin{itemize}
+ \item \textbf{Software como Servicio (SaaS, por sus siglas en inglés):} En este modelo los desarrolladores liberan el software sobre un entorno de \textit{hosting}
+ el cual puede ser accedido mediante aplicaciones de usuario como navegadores web o aplicaciones móviles. Ejemplos de SaaS tenemos Google Docs,
+ Google Mail \footnote{\url{https://mail.google.com/}, último acceso en setiembre 2015} , 
+ Google Drive \footnote{\url{https://drive.google.com/drive/}, último acceso en setiembre 2015}, 
+ Outlook \footnote{\url{https://www.live.com/}, último acceso en setiembre 2015}, entre otros.
+ 
+ \item \textbf{Plataforma como Servicio (PaaS, por sus siglas en inglés): } PaaS es una plataforma de desarrollo que soporta todo el ciclo de 
+ desarrollo del software, esto permite a los consumidores de la nube, liberar y desplegar sus aplicaciones directamente sobre la capa de 
+ aplicación. A diferencia de PaaS, SaaS solo sirve aplicaciones completas, mientras que PaaS ofrece adicionalmente la plataforma de desarrollo.
+ Ejemplo de PaaS son Google App Engine \footnote{https://cloud.google.com/appengine/docs, último acceso en setiembre 2015}, 
+ Heroku \footnote{https://www.heroku.com/, último acceso en setiembre 2015}, 
+ Microsoft Azure \footnote{http://azure.microsoft.com/en-us/, último acceso en setiembre 2015}.
+ 
+ \item \textbf{Infraestructura como un Servicio:} Los consumidores de la nube directamente administran la infraestructura del servidor (redes,
+ procesamiento, almacenamiento, gestión de paquetes, nuevos programas, entre otros). La creación de Máquinas Virtuales (VM, Virtual Machines) 
+ son intensamente usadas en este modelo a fin de aislar, integrar diferentes recursos físicos. En este modelo podemos listar a :
+ Amazon EC2 \footnote{http://aws.amazon.com/ec2/, último acceso en setiembre 2015}, Google Compute Engine
+ \footnote{https://cloud.google.com/compute/, último acceso en setiembre 2015}, Digital Ocean 
+ \footnote{http://www.digitalocean.com/, último acceso en setiembre 2015} , entre otros.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Computación en Nube para Móviles} % Main chapter title
+
+\label{sec:mcc} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%\lhead{Capítulo 3. \emph{Computación en nube para móviles}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+El área de la computación en nube para móviles al ser un campo de investigación relativamente nuevo, no existe una definición
+ampliamente aceptada y puede ser vista desde muchos ángulos como lo realizó el trabajo de  Fernando, Loke y Rahayu 
+\cite{fernando2013mobile}, tomando hasta 3 definiciones distintas. En este trabajo nos referimos a MCC como un conjunto de técnicas que 
+aprovechan los potentes recursos computacionales en nube para potenciar aplicaciones móviles con el principal objetivo de mejorar la calidad de 
+servicio hacia los usuarios que tienen dispositivos limitados en términos de energía, procesamiento y almacenamiento. En este capítulo
+detallaremos la visión actual de MCC, del mismo modo explicaremos la heterogeneidad que la envuelve,
+y los desafíos por solucionar en las técnicas de \textit{offloading}.
+
+\subsection{Visión}
+
+MCC permite a los usuarios móviles acceder a sus aplicaciones, datos, y servicios en nube a través de internet aprovechando 
+la web móvil \cite{dinh2013survey}, consiguiendo no depender totalmente de los recursos locales de los móviles,
+, por tanto esta nueva ola tecnológica puede ser aplicada en varias áreas como la salud, negocios de TI, educación,
+entretenimiento y redes sociales. 
+
+En el trabajo de Abolfazli, Sanaei y Gani \cite{abolfazli2012mobile} se clasifica los enfoques
+que puede tomar la mejora en los dispositivos móviles entre hardware y software los cuales se muestran en la gráfica de la Figura
+\ref{fig:approachesmobileaugmentation}.  Si bien los avances de hardware son virtuosos, son aún lentos en comparación a la creciente 
+expectativa de los usuarios y desarrolladores de aplicaciones. Otro enfoque alternativo para la mejora de las capacidades computacionales 
+de los dispositivos es usar técnicas de software 
+para la conservación de recursos
+locales y la reducción de requerimientos de recursos al instalar aplicaciones. En consecuencia, sostenemos que la computación en nube 
+tendrá una participación
+destacada aventajándose de valiosos recursos remotos con el fin de mejorar la experiencia del usuario.
+
+\begin{figure}[h]
+ \includegraphics[scale=0.35]{Figures/taxonomySmartphone.pdf}
+ \caption{Taxonomía de los enfoques de mejora de en móviles. Figura adaptada de \cite{abolfazli2012mobile}}
+ \label{fig:approachesmobileaugmentation}
+\end{figure}
+
+\subsection{Heterogeneidad}
+
+La innegable popularidad que han tomado los dispositivos móviles como los smartphones, wereables y objetos de IoT crea un mercado dinámico
+y exigente, que ha diversificado a los componentes de MCC en diferentes dimensiones de una manera no estándar. Esta variedad de hardware, arquitecturas,
+infraestructura y tecnologías de dispositivos móviles, nubes, y redes inalámbricas genera un entorno Heterogéneo. En esta sección
+describimos como la heterogeneidad abarca a todos los componentes de MCC: computación móvil, computación en nube y redes inalámbricas
+\cite{sanaei2014heterogeneity}. Este
+escenario es representado en la Figura \ref{fig:mccheterogeinity}. Aunque la heterogeneidad en la MCC ha sido inherente desde los orígenes
+de la computación en nube y móvil, su complejidad la hace desafiante y única, por lo que necesita un estudio exhaustivo.
+
+
+\subsubsection{Taxonomía en la MCC}
+
+En este apartado estudiaremos detalladamente la heterogeneidad en MCC por medio del análisis de sus orígenes y dimensiones. 
+Según \cite{sanaei2014heterogeneity}, 
+los orígenes de la heterogeneidad se dan por el hardware, plataforma, característica, API, red y dispositivos. 
+
+
+\begin{figure}[h]
+ \includegraphics[scale=0.45]{Figures/mccheterogeinity}
+ \caption{Una vista general a MCC \cite{sanaei2014heterogeneity}}
+ \label{fig:mccheterogeinity}
+\end{figure}
+
+\subsubsection{Orígenes de la heterogeneidad en MCC}
+
+Para entender claramente la heterogeneidad que no es una característica específica de un dominio, podemos percibir casos en la vida real:
+los automóviles que están compuestos de partes totalmente diferentes que logran interactuar entre ellos con un solo fin; el caso de las
+partes del cuerpo que
+son intrínsecamente heterogéneas logran cooperan para mantener la funcionalidad como un todo. Análogamente, los tres componentes principales 
+de la MCC (computación en la nube, computación móvil y redes inalámbricas) deben interactuar sin problemas y consistentemente. Esta división 
+de los orígenes de la taxonomía está representada en la imagen de la Figura \ref{fig:heterogeinityRootsmcc}. 
+
+
+\begin{figure}[h]
+ \includegraphics[scale=0.45]{Figures/heterogeinityRootsmcc}
+ \caption{Taxonomía de los orígenes de la heterogeneidad en MCC \cite{sanaei2014heterogeneity}}
+ \label{fig:heterogeinityRootsmcc}
+\end{figure}
+
+
+\begin{enumerate}
+ \item \textbf{Heterogeneidad de hardware:} La fuerte demanda de los usuarios de móviles y la competencia entre las grandes compañías 
+ fabricantes de hardware han permitido que diversifiquen sus arquitecturas internas entre dispositivos móviles, servidores en nube, e 
+ infraestructuras de redes. 
+ 
+ En el entorno de la computación en nube, la variedad de proveedores de servidores otorgan una variedad en infraestructuras y diseño 
+ de arquitecturas de Computadoras con un Conjunto de Instrucciones Complejas (CISC, por sus siglas en inglés) con las variaciones de 32 y
+ 64 bits. 
+ 
+ Similarmente, la diversidad de arquitecturas en los dispositivos móviles, que generalmente están basadas en Computadoras con Conjunto de Instrucciones
+ Reducidas (RISC, por sus siglas en inglés) de 32 bits; sin embargo, existe una considerable variación en términos de velocidad del procesador,
+ número de nucleos, cantidad de caché del procesador. Igualmente existe una variedad importante entre los recursos del dispositivo móvil como
+ la memoria memoria interna, fiabilidad de la antena inalámbrica y la capacidad de la batería.
+ 
+ La heterogeneidad en hardware entre los dispositivos móviles y las computación en nube, crea los siguientes problemas: 
+ 
+ \begin{itemize}
+  \item La variación de hardware de los servidores en nube conlleva a una diferencia de rendimiento y calidad de servicio, además  del casi nulo
+  soporte para la portabilidad de aplicaciones entre los diferentes proveedores, entonces fuerza al usuario a tomar una decisión 
+  importante entre la vasta cantidad de opciones disponibles. Los desarrolladores pueden usar la herramienta en línea de \textit{Software Insider}
+  para optar por la mejor propuesta de servicios en nube \footnote{\url{http://cloud-computing.softwareinsider.com}, último acceso en setiembre 2015}.
+  \item El conocido principio usado por desarrolladores ``codifica una vez, ejecútalo donde sea'' se cumple parcialmente en el 
+  heterogéneo ambiente móvil, dado que requiere dependencia de herramientas privadas  
+  multi-plataforma como Xamarin \footnote{ \url{http://xamarin.com/}, último acceso en setiembre 2015} o Qt para móviles 
+  \footnote{ \url{http://www.qt.io/mobile-app-development/}, último acceso en setiembre 2015}
+  . Las herramientas en mención son un gran aporte en el entorno de los \textit{smartphones} pero tienen
+  una limitante en entornos de dispositivos \textit{weareables} y de Internet de las cosas, ya que en su arquitectura se ejecuta sobre diferentes
+  distribuciones ligeras de Linux.
+  \item Un parámetro fundamental en las técnicas de \textit{offloading} es la estimación precisa de la energía \cite{sanaei2014heterogeneity},
+  para
+  que se decida si el enviar partes de la aplicación conservará energía o no \cite{5445167}. Es por tal motivo que se necesita estimar de manera precisa
+  este valor 
+  
+ \end{itemize}
+
+ \item \textbf{Heterogeneidad de Plataforma:} De modo equivalente a la heterogeneidad de hardware, existe una amplia disponibilidad de sistemas
+ operativos, lenguajes de programación y estructuras de datos en MCC que transforman a las plataformas en entornos heterogéneos. En el contexto
+ de los sistemas operativos móviles encontramos algunos como Android \footnote{\url{http://developer.android.com/index.html}, último acceso en setiembre 2015} y iOS 
+ \footnote{\url{https://developer.apple.com/devcenter/ios/index.action}, último acceso en setiembre 2015}, de Google y Apple respectivamente,
+ cada uno con múltiples versiones
+ y  arquitecturas que soportan diferentes lenguajes de programación y estructuras de datos. Android ofrece el desarrollo sobre la máquina virtual 
+ de java basado en bytecodes; mientras que iOS soporta Objective-C, un lenguaje compilado a nivel de código máquina.
+ 
+ En en ámbito de la computación en nube los proveedores más populares tales como App Engine
+ \footnote{\url{https://cloud.google.com/appengine/docs}, último acceso en setiembre 2015}, Microsoft Azure
+ \footnote{\url{https://azure.microsoft.com/en-us/}, último acceso en setiembre 2015} y 
+ Amazon Web Services \footnote{\url{http://aws.amazon.com/}, último acceso en setiembre 2015} soportan una diversa cantidad de lenguajes de programación, sistemas operativos
+ y arquitecturas de almacenamiento, p. ej. Azure Soporta .Net, PHP, Ruby, Python y Java para desarrollar aplicaciones, Google 
+ igualmente ofrece Java además de Python, PHP y Go; sin embargo, estas plataformas poseen almacenes de datos no relacionales con diseños 
+ estructurales y esquemas de particionado diferentes (Big table de Google \cite{Chang:2006:BDS:1267308.1267323}, Dynamo de Amazon \cite{decandia2007dynamo} y 
+ DocumentDB de Azure 
+ \footnote{\url{http://azure.microsoft.com/en-us/services/documentdb/}, último acceso en setiembre 2015}), y por lo tanto estos proveedores hacen cumplir  sus restricciones
+ de uso  para proveer mayor flexibilidad de su servicio.
+ 
+ Tal heterogeneidad convierte la portabilidad en un proceso tedioso, costoso y de alto riesgo. Transferir aplicaciones entre diferentes
+ nubes demanda un costo extra que incluye descargar la aplicación, realizar la conversión y desplegar el nuevo sistema a la nueva nube. Es
+ peligroso, dado que la transferencia entre bases de datos de entre nubes compromete la privacidad e integridad de los datos cuando existe una
+ diferencia entre sistemas de archivos y técnicas de encriptación \cite{5708456}. Por lo tanto, para el desarrollador escoger la plataforma 
+ correcta no es tarea fácil. La variedad de plataformas se representa en la Figura \ref{fig:difficultDecisiton}.
+ 
+ \begin{figure}[h]
+ \centering \includegraphics[scale=0.3]{Figures/difficultDecisiton}
+ \caption{Heterogeneidad de plataformas en MCC y la difícil tarea para el desarrollador elegir la correcta \cite{sanaei2014heterogeneity}}
+ \label{fig:difficultDecisiton}
+\end{figure}
+ 
+ %falta un poco hablar de las soluciones como phonegap o marmalade
+ 
+ % La portabilidad como la define el Comité Internacional para los Estándares de Tecnologías de la Información (INCITS, por sus siglas en inglés) 
+
+ 
+ \item \textbf{Heterogeneidad de Características: } Es la variación de características en los \textit{smartphones} tales como los sensores,
+ el área de visualización,  multimedia, y tecnologías de red. Una de las características que más varía entre fabricantes es la cámara. P. ej.
+ El celular motorola X, un celular de gama media, posee una cámara de 10PM \footnote{\url{https://www.motorola.com/us/Moto-X/FLEXR1.html}, 
+ último acceso en setiembre 2015}, entretanto 
+ el celular Samsung Galaxy Edge 6, un celular de gama alta, dispone de una cámara de 16 MP \footnote{\url{http://www.samsung.com/uk/galaxys6/}, 
+ último acceso en setiembre 2015}. Esta
+ desigualdad puede significar una variación en las técnicas de offloading ( las cuales detallaremos en el Capítulo \ref{ch:Chapter4}) 
+ si es que consideramos algún tipo de procesamiento de imagen en la nube,  debido a que el envío de datos a la nube sería más lento.
+ 
+ Las variaciones en el área de visualización entre los celulares impiden que los desarrolladores diseñar una interfaz de usuario que se adapte a 
+ todos los tamaños de pantalla, disminuyendo la experiencia de usuario.	En el entorno Android existe el soporte para la construcción de 
+ aplicaciones que se adecúan al contenido de la pantalla en su versión 3.2 en adelante \footnote{
+ \url{http://developer.android.com/about/versions/android-3.2.html}, último acceso en setiembre 2015}.
+ 
+ La heterogeneidad en nube está dada por los servicios que cada proveedor ofrece en particular. P. ej. \textit{Google App Engine} ofrece el servicio 
+ de Big Query \footnote{\url{https://cloud.google.com/bigquery/}, último acceso en setiembre 2015} que permite a los administradores
+ realizar consultas sobre \textit{Big Data} 
+ en tiempo real. Microsoft Azure a su vez, es el único que ofrece un servicio de almacenamiento de backups encriptado 
+ \footnote{\url{http://azure.microsoft.com/en-us/services/backup/}, último acceso en setiembre 2015} 
+  
+  \item \textbf{Heterogeneidad de APIs:} Las Interfaces de Programación de Aplicaciones (API, por sus siglas en inglés) son bibliotecas de código
+  que permiten un acceso rápido a datos específicos o funciones de un proveedor en particular. Los usuarios de \textit{smartphones} tienen una 
+  alta expectativa respecto a la experiencia de usuario, es por tal motivo que las mas grandes compañías de sistemas operativos móviles (Android, iOS, 
+  Blackberry \footnote{\url{http://us.blackberry.com/}, último acceso en setiembre 2015} y Firefox OS 
+  \footnote{\url{https://www.mozilla.org/en-US/firefox/os/2.0/}, último acceso en setiembre 2015}) otorgan una amplia
+  gama de APIs a los desarrolladores. Esta es una ventaja para desarrollar aplicaciones enriquecedoras en experiencia de usuario, de una forma 
+  ágil y fácil sin necesidad de acceder al kernel. Sin embargo, las APIs son dependientes de los proveedores y la portabilidad nuevamente se
+  convierte en una tarea complicada, dadas las diferencias de las APIs.
+  
+  De manera similar, en la computación en nube, la casi totalidad de proveedores diseñan APIs que son usados exclusivamente por sus clientes
+  p. ej. Google App engine ofrece la API de documentos e Indices \footnote{\url{https://cloud.google.com/appengine/docs/java/search/}, último acceso en setiembre 2015} 
+  para realizar búsquedas de manera rápida y eficiente sobre espacios geográficos y texto principalmente. Otro ejemplo que resaltamos es 
+  en el envío de notificaciones push, Google, Azure y Parse \footnote{\url{https://www.parse.com/}, último acceso en setiembre 2015}
+  ofrecen sus APIs basadas en 
+  \textit{Google Cloud Messaging} \footnote{\url{https://developer.android.com/google/gcm/index.html}, último acceso en setiembre 2015}
+  , \textit{Notification Hubs} 
+  \footnote{\url{http://azure.microsoft.com/en-us/documentation/services/notification-hubs/}, último acceso en agosto 2015} y \textit{Parse Push Notifications} 
+  \footnote{\url{https://parse.com/docs/push_guide}, último acceso en julio 2015} respectivamente. Esta heterogeneidad además que impide la portabilidad, 
+  demanda un tiempo considerable al desarrollador poder aprender cada una de las APIs en nube.
+  
+  \item \textbf{Heterogeneidad de Redes:} A diferencia de las computadoras de escritorio, la mayoría de dispositivos móviles solamente usan redes
+  inalámbricas para conectarse a Internet, las cuales son comparativamente más intermitentes y menos fiables. La variedad infraestructuras
+  de redes inalámbricas disponibles como Wi-fi, 3G y 4G dificultan el proceso de selección de la red más adecuada en el momento que el cliente
+  móvil está en movimiento.
+  
+  
+  
+ 
+ 
+\end{enumerate}
+
+
+

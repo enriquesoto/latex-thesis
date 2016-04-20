@@ -1,0 +1,27 @@
+% Chapter 8
+
+\chapter{Cronograma de Trabajo} % Main chapter title
+
+\label{Chapter8} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Capítulo 8. \emph{Cronograma de Trabajo}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+\begin{table}[h]
+ \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Actividades}}                                          & \multicolumn{9}{c|}{Años y Semestres}                                                                                                                                                                                                                  \\ \cline{2-10} 
+\multicolumn{1}{|c|}{}                                                                      & \multicolumn{2}{l|}{2014}                       & \multicolumn{5}{c|}{2015}                                                                                                                & \multicolumn{2}{c|}{2016}                                 \\ \cline{2-10} 
+\multicolumn{1}{|c|}{}                                                                      & \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{2} & \multicolumn{1}{l|}{Febrero} & \multicolumn{1}{l|}{Marzo} & \multicolumn{1}{l|}{Abril} & \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{2} & \multicolumn{1}{l|}{Enero} & \multicolumn{1}{l|}{Febrero} \\ \hline
+Disciplinas Obligatorias                                                                    & x                      & x                      &                              &                            &                            & x                      & x                      &                            &                              \\ \hline
+Estudio de Bibliografía                                                                     & x                      & x                      & x                            & x                          & x                          &                        &                        &                            &                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}Estudio de las diferentes \\ técnicas de offloading\end{tabular} &                        &                        &                              &                            & x                          & x                      &                        &                            &                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}Comparación de técnicas\\ de offloading\end{tabular}             &                        &                        &                              &                            &                            & x                      & x                      &                            &                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}Implementación de \\ algoritmos\end{tabular}                     &                        &                        &                              &                            &                            &                        & x                      &                            &                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}Estudio de métricas de \\ comparación\end{tabular}               &                        &                        &                              &                            &                            &                        & x                      & x                          &                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}Redacción de la tesis \\ y defensa\end{tabular}                  &                        &                        &                              &                            &                            &                        &                        & x                          & x                            \\ \hline
+\end{tabular}
+\caption{Plan de trabajo}
+\end{table}
+
+

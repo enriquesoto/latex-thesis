@@ -1,0 +1,30 @@
+% Chapter 8
+
+\chapter{Conclusiones} % Main chapter title
+
+\label{ch:Chapter8} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Capítulo 8. \emph{Conclusiones}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+En este trabajo se propone Pytos, un framework para emplear \textit{offloading} en entornos \textit{cloudlet}, lo cual permitirá ahorrar 
+energía y optimizar el rendimiento de aplicaciones móviles que consuman abundantes recursos. Nuestro enfoque lleva la computación al borde de 
+la red y visiona solucionar una de las principales limitaciones de los frameworks basados en nube: la demora de las redes WAN. 
+
+La arquitectura propuesta es transparente para los usuarios finales, ya que descubre los \textit{cloudlets} disponibles y decide si
+el \textit{offloading} es factible , o no, de manera automática. A los desarrolladores, nuestro modelo permitirá una integración simple y una 
+migración de código de grano fino usando decoradores de Python. Como fue demostrado en las evaluaciones empíricas, la migración de cómputo 
+a los \textit{cloudlets} puede conservar energía hasta un factor de 20.
+
+
+%Furthermore, before sending computation to cloudlet mobile-context characteristics are taken in consideration (network state and history-based execution time). 
+Además, la arquitectura propuesta puede ser ampliamente usada. Cada aplicación que precise de recursos adicionales (codificación de video, procesamiento
+de señales, juegos, etc. ) puede ser asistida la computación en el borde de la red. Sin embargo, en el modelo propuesto, el desarrollador 
+escoger la tarea conveniente que pueda ser migrada sin efectos secundarios en la aplicación. Por ejemplo, un método no puede ser migrado si este 
+requiere llamadas al sistema operativo, como lecturas de sensores, uso de instrucciones de Entrada/Salida, o consultas a base de datos locales. 
+En versiones futuras, se visiona solucionar tales limitaciones.
+
+La arquitectura Pytos, si es desplegada cerca a entornos de red inalámbricas, puede mejorar la experiencia de usuario, ofreciendo, por ejemplo, 
+un mejor servicio en áreas comerciales, como cafeterías, centros comerciales, y restaurantes. Si es desplegado ampliamente, 
+los \textit{cloudlets} pueden reducir el tráfico de internet a nivel global. 
+

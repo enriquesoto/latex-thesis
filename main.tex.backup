@@ -1,0 +1,425 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.41 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper, oneside]{Thesis} % Paper size, default font size and one-sided paper
+
+%%----------PACKAGE FOR CODE HIGLIGHTING
+\usepackage{listings}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\boxing}{\ding{112}}
+% 
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
+%%---------------------------
+\bibliographystyle{alpha}
+\usepackage{multirow}
+\usepackage{verbatim} 
+\usepackage[spanish]{babel}
+\usepackage[table,xcdraw]{xcolor}
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+%\textsc{\LARGE \univname}\\[1.5cm] % University name
+
+%\begin{figure}[h]
+% \centering
+% \includegraphics[scale=0.35]{./Pictures/UNSA.png}
+ % UNSA.png: 261x320 pixel, 72dpi, 9.21x11.29 cm, bb=0 0 261 320
+%\end{figure}
+\vspace*{2.5cm}
+\LARGE \textbf{Potenciando los Dispositivos Móviles mediante Técnicas de \emph{Offloading} en Arquitecturas \textit{Cloudlet}} \\ [2cm] % Thesis type
+
+% Un Nuevo Abordage para Offloading de Cómputo Pesado desde Entornos Móviles a Cloudlets
+%\HRule \\[0.4cm] % Horizontal line
+%{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+ 
+\LARGE { \authornames }\\[0.3cm] % University requirement text
+%\textit{ante el}\\[0.4cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+%\emph{Jurados:} \\
+%\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+%\supname
+\end{flushright}
+\end{minipage} % \\[3cm]
+ 
+\LARGE \textsc{Documento para la Calificación de Proyecto de tesis de Maestría Presentada a la Cátedra CONCYTEC en TIC's de la UNSA}\\[1cm] % University requirement text
+%\textit{ante el}\\[0.4cm]
+
+%\deptname\\[2cm] % Research group name and department name
+
+
+Programa: Maestría en informática con Mención en las Tecnologías de la Información\\[1cm]
+Asesor: Álvaro Henry Mamani Aliaga \\
+Co-Asesor: Arlindo Flavio da Conceição\\[2cm] 
+ 
+{\large \today}\\ % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\begin{comment}
+\Declaration{
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
+ 
+Signed:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+}
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{``Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism."}
+
+\begin{flushright}
+Dave Barry
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
+}
+\clearpage % Start a new page
+\end{comment}
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+
+\begin{comment}
+
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+
+\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+{
+Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+% Constant Name & Symbol & = & Constant Value (with units) \\
+}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+
+\listofnomenclature{lll} % Include a list of Symbols (a three column table)
+{
+$a$ & distance & m \\
+$P$ & power & W (Js$^{-1}$) \\
+% Symbol & Name & Unit \\
+
+& & \\ % Gap to separate the Roman symbols from the Greek
+
+$\omega$ & angular frequency & rads$^{-1}$ \\
+% Symbol & Name & Unit \\
+}
+ 
+\end{comment}
+
+\vspace*{2cm}
+
+\begin{center}
+ \Large \textbf{Potenciando los Dispositivos Móviles mediante Técnicas de \emph{Offloading} en Arquitecturas \textit{Cloudlet}}
+\end{center}
+ 
+
+\vspace{5cm}
+\begin{minipage}{0.9\textwidth}
+\begin{flushright} \large
+%\emph{Jurados:} \\
+%\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+%\supname
+El presente documento es una versión sometida a calificación \\ del jurado de Enrique Arturo Soto Mendoza
+\end{flushright}
+\end{minipage} % \\[3cm]
+
+
+
+\clearpage
+%----------------------------------------------------------------------------------------
+%	RESUMEN PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Resumen} % Add the "Abstract" page entry to the Contents
+
+\resumen{\addtocontents{toc}{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+El uso de \textit{offloading} basado en nube de tareas costosas puede mejorar el rendimiento de una aplicación y reducir el 
+consumo de energía de un dispositivo móvil, dicho objetivo se logra migrando la ejecución de código a servidores más potentes en la nube. 
+Sin embargo, el \textit{offloading} a la nube no siempre es la mejor opción,
+ya que de por medio existe una latencia elevada en entornos WAN.
+En este trabajo se propone Pytos, un framework de \emph{offloading} para Python, el cual consiste de una arquitectura jerárquica de 3 niveles: 
+1) nube, 2) \emph{cloudlet} y 3) dispositivo móvil. Este sistema permite 
+la migración de código al borde de la red (\textit{cloudlet}), mitigando las limitaciones de latencia. Pytos provee un mecanismo transparente 
+de \textit{offloading} al usuario final, ya que los \textit{cloudlet} disponibles en una red serán habilitados automáticamente. Para los 
+desarrolladores, Pytos provee un modelo simple de programación a una granularidad a nivel de métodos. Las evaluaciones empíricas iniciales
+mostraron que Pytos puede mejorar el rendimiento y consumo de energía hasta 20 veces. 
+
+\textbf{Palabras clave: computación en nube para móviles, offloading de cómputo, framework, cloudlet, Python }
+
+\clearpage
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+%english
+Cloud-based offloading may improve mobile application performance and reduce energy consumption by migrating mobile 
+code execution to the cloud. Nevertheless, offloading to the cloud is not always the best bet, because of the high WAN delay.
+This work presents Pytos, a framework for Python, that allows code migration to the network edge (cloudlet), mitigating latency 
+limitations. Pytos provides a transparent offloading mechanism to end users, hence available cloudlets in the network are discovered 
+automatically. To developers, Pytos provides a simple programming model at method-level granularity. Empirical evaluation showed that 
+Pytos can improve performance and energy consumption up to 20 times.
+
+\textbf{Key-words:} mobile cloud, computation offloading, framework, cloudlet, Python
+
+}
+
+%\clearpage
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+\clearpage
+\lhead{\emph{Contenido}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{Indice de Tablas}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{Lista de Tablas}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{Abreviaciones}} % Set the left side page header to "Abbreviations"
+
+\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+{
+  \textbf{MCC} & \textbf{M}obile \textbf{C}loud \textbf{C}omputing \\
+  \textbf{TI} & \textbf{T}ecnologías de la \textbf{I}nformación  \\
+  \textbf{QoS} & \textbf{Q}uality \textbf{o}f \textbf{S}ervice \\
+  \textbf{NIST} & \textbf{N}ational \textbf{I}nstitue of \textbf{S}tandard and \textbf{T}echnology \\
+  \textbf{IoT} & \textbf{I}nternet \textbf{o}f \textbf{T}hings \\
+  \textbf{API} & \textbf{A}pplication \textbf{P}rogramming \textbf{I}nterface \\
+  \textbf{CISC} & \textbf{C}omplex \textbf{I}nstrucion \textbf{S}et \textbf{C}omputer \\
+  \textbf{RISC} & \textbf{R}educed \textbf{I}nstrucion \textbf{S}et \textbf{C}omputer \\
+  \textbf{PHP} & \textbf{H}ypertext \textbf{P}reprocessor \\
+  \textbf{MP} & \textbf{M}ega \textbf{P}ixels \\
+  \textbf{OS} & \textbf{O}perating \textbf{S}ystems \\
+  \textbf{RPC} & \textbf{R}emote \textbf{P}rocedure \textbf{C}all  \\
+  \textbf{HTTP} & \textbf{H}iper \textbf{T}ext \textbf{T}ransfer \textbf{P}rotocol  \\
+  \textbf{SaaS} & \textbf{S}oftware \textbf{a}s \textbf{a} \textbf{S}ervice   \\
+  \textbf{PaaS} & \textbf{P}latform \textbf{a}s \textbf{a} \textbf{S}ervice   \\
+  \textbf{IaaS} & \textbf{I}nfraestructure \textbf{a}s \textbf{a} \textbf{S}ervice   \\
+  \textbf{VM} & \textbf{V}irtual \textbf{M}achine   \\
+  %\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+%\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5}
+\input{Chapters/Chapter6} 
+\input{Chapters/Chapter7}
+\input{Chapters/Chapter8} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+%\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography2} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+%\bibliography{main}
+
+\end{document}  

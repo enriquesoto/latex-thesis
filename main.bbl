@@ -1,0 +1,322 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{WGKN08}
+
+\bibitem[ASG12]{abolfazli2012mobile}
+Saeid Abolfazli, Zohreh Sanaei, and Abdullah Gani.
+\newblock Mobile cloud computing: A review on smartphone augmentation
+  approaches.
+\newblock {\em arXiv preprint arXiv:1205.0451}, 2012.
+
+\bibitem[Bal06]{balan2006simplifying}
+Rajesh~Krishna Balan.
+\newblock {\em Simplifying cyber foraging}.
+\newblock School of Computer Science, Carnegie Mellon University, 2006.
+
+\bibitem[BMZA12]{Bonomi:2012:FCR:2342509.2342513}
+Flavio Bonomi, Rodolfo Milito, Jiang Zhu, and Sateesh Addepalli.
+\newblock Fog computing and its role in the internet of things.
+\newblock In {\em Proceedings of the First Edition of the MCC Workshop on
+  Mobile Cloud Computing}, MCC '12, pages 13--16, New York, NY, USA, 2012. ACM.
+
+\bibitem[BNRS13]{bourdon2013powerapi}
+Aur{\'e}lien Bourdon, Adel Noureddine, Romain Rouvoy, and Lionel Seinturier.
+\newblock Powerapi: A software library to monitor the energy consumed at the
+  process-level.
+\newblock {\em {ERCIM News}}, 92:43--44, January 2013.
+
+\bibitem[BSPO03]{balan2003tactics}
+Rajesh~Krishna Balan, Mahadev Satyanarayanan, So~Young Park, and Tadashi
+  Okoshi.
+\newblock Tactics-based remote execution for mobile computing.
+\newblock In {\em Proceedings of the 1st international conference on Mobile
+  systems, applications and services}, pages 273--286. ACM, 2003.
+
+\bibitem[CBC{\etalchar{+}}10]{Cuervo:2010:MMS:1814433.1814441}
+Eduardo Cuervo, Aruna Balasubramanian, Dae-ki Cho, Alec Wolman, Stefan Saroiu,
+  Ranveer Chandra, and Paramvir Bahl.
+\newblock Maui: Making smartphones last longer with code offload.
+\newblock In {\em Proceedings of the 8th International Conference on Mobile
+  Systems, Applications, and Services}, MobiSys '10, pages 49--62, New York,
+  NY, USA, 2010. ACM.
+
+\bibitem[CDG{\etalchar{+}}06]{Chang:2006:BDS:1267308.1267323}
+Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson~C. Hsieh, Deborah~A. Wallach,
+  Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert~E. Gruber.
+\newblock Bigtable: A distributed storage system for structured data.
+\newblock In {\em Proceedings of the 7th USENIX Symposium on Operating Systems
+  Design and Implementation - Volume 7}, OSDI '06, pages 15--15, Berkeley, CA,
+  USA, 2006. USENIX Association.
+
+\bibitem[CDJ{\etalchar{+}}15]{chen2015smartphone}
+Xiaomeng Chen, Ning Ding, Abiliash Jindal, Y~Charlie Hu, Maruti Gupta, and Rath
+  Vannithamby.
+\newblock Smartphone energy drain in the wild: Analysis and implications.
+\newblock 2015.
+
+\bibitem[CFH{\etalchar{+}}05]{clark2005live}
+Christopher Clark, Keir Fraser, Steven Hand, Jacob~Gorm Hansen, Eric Jul,
+  Christian Limpach, Ian Pratt, and Andrew Warfield.
+\newblock Live migration of virtual machines.
+\newblock In {\em Proceedings of the 2nd conference on Symposium on Networked
+  Systems Design \& Implementation-Volume 2}, pages 273--286. USENIX
+  Association, 2005.
+
+\bibitem[CIM{\etalchar{+}}11]{chun2011clonecloud}
+Byung-Gon Chun, Sunghwan Ihm, Petros Maniatis, Mayur Naik, and Ashwin Patti.
+\newblock Clonecloud: elastic execution between mobile device and cloud.
+\newblock In {\em Proceedings of the sixth conference on Computer systems},
+  pages 301--314. ACM, 2011.
+
+\bibitem[DHJ{\etalchar{+}}07]{decandia2007dynamo}
+Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati,
+  Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall,
+  and Werner Vogels.
+\newblock Dynamo: amazon's highly available key-value store.
+\newblock In {\em ACM SIGOPS Operating Systems Review}, volume~41, pages
+  205--220. ACM, 2007.
+
+\bibitem[DLNW13]{dinh2013survey}
+Hoang~T Dinh, Chonho Lee, Dusit Niyato, and Ping Wang.
+\newblock A survey of mobile cloud computing: architecture, applications, and
+  approaches.
+\newblock {\em Wireless communications and mobile computing},
+  13(18):1587--1611, 2013.
+
+\bibitem[DWC10]{dillon2010cloud}
+Tharam Dillon, Chen Wu, and Elizabeth Chang.
+\newblock Cloud computing: issues and challenges.
+\newblock In {\em Advanced Information Networking and Applications (AINA), 2010
+  24th IEEE International Conference on}, pages 27--33. Ieee, 2010.
+
+\bibitem[Ehr10]{ehringer2010dalvik}
+David Ehringer.
+\newblock The dalvik virtual machine architecture.
+\newblock {\em Techn. report (March 2010)}, 4, 2010.
+
+\bibitem[FGNW12]{6337243}
+D.~Fesehaye, YunLong Gao, K.~Nahrstedt, and Guijun Wang.
+\newblock Impact of cloudlets on interactive mobile cloud applications.
+\newblock In {\em Enterprise Distributed Object Computing Conference (EDOC),
+  2012 IEEE 16th International}, pages 123--132, Sept 2012.
+
+\bibitem[FLR13]{fernando2013mobile}
+Niroshinie Fernando, Seng~W Loke, and Wenny Rahayu.
+\newblock Mobile cloud computing: A survey.
+\newblock {\em Future Generation Computer Systems}, 29(1):84--106, 2013.
+
+\bibitem[FPS02]{flinn2002balancing}
+Jason Flinn, SoYoung Park, and Mahadev Satyanarayanan.
+\newblock Balancing performance, energy, and quality in pervasive computing.
+\newblock In {\em Distributed Computing Systems, 2002. Proceedings. 22nd
+  International Conference on}, pages 217--226. IEEE, 2002.
+
+\bibitem[GJM{\etalchar{+}}12]{gordon2012comet}
+Mark~S Gordon, Davoud~Anoushe Jamshidi, Scott~A Mahlke, Zhuoqing~Morley Mao,
+  and Xu~Chen.
+\newblock Comet: Code offload by migrating execution transparently.
+\newblock In {\em OSDI}, pages 93--106, 2012.
+
+\bibitem[GKW04]{gurun2004nwslite}
+Selim Gurun, Chandra Krintz, and Rich Wolski.
+\newblock Nwslite: a light-weight prediction utility for mobile devices.
+\newblock In {\em Proceedings of the 2nd international conference on Mobile
+  systems, applications, and services}, pages 2--11. ACM, 2004.
+
+\bibitem[GNM{\etalchar{+}}04]{gu2004adaptive}
+Xiaohui Gu, Klara Nahrstedt, Alan Messer, Ira Greenberg, and Dejan Milojicic.
+\newblock Adaptive offloading for pervasive computing.
+\newblock {\em Pervasive Computing, IEEE}, 3(3):66--73, 2004.
+
+\bibitem[KAH{\etalchar{+}}11]{DBLP:journals/corr/abs-1105-3232}
+Sokol Kosta, Andrius Aucinas, Pan Hui, Richard Mortier, and Xinwen Zhang.
+\newblock Unleashing the power of mobile cloud computing using thinkair.
+\newblock {\em CoRR}, abs/1105.3232, 2011.
+
+\bibitem[KL10]{5445167}
+K.~Kumar and Yung-Hsiang Lu.
+\newblock Cloud computing for mobile users: Can offloading computation save
+  energy?
+\newblock {\em Computer}, 43(4):51--56, April 2010.
+
+\bibitem[KLLB13]{raey}
+Karthik Kumar, Jibang Liu, Yung-Hsiang Lu, and Bharat Bhargava.
+\newblock A survey of computation offloading for mobile systems.
+\newblock {\em Mobile Networks and Applications}, 18(1):129--140, 2013.
+
+\bibitem[KOMK14]{6553297}
+A.R. Khan, M.~Othman, S.A. Madani, and S.U. Khan.
+\newblock A survey of mobile cloud computing application models.
+\newblock {\em Communications Surveys Tutorials, IEEE}, 16(1):393--413, First
+  2014.
+
+\bibitem[KPKB12]{kemp2012cuckoo}
+Roelof Kemp, Nicholas Palmer, Thilo Kielmann, and Henri Bal.
+\newblock Cuckoo: a computation offloading framework for smartphones.
+\newblock In {\em Mobile Computing, Applications, and Services}, pages 59--79.
+  Springer, 2012.
+
+\bibitem[Kri10]{5466972}
+M.D. Kristensen.
+\newblock Scavenger: Transparent development of efficient cyber foraging
+  applications.
+\newblock In {\em Pervasive Computing and Communications (PerCom), 2010 IEEE
+  International Conference on}, pages 217--226, March 2010.
+
+\bibitem[LS13]{lee2013user}
+Kilho Lee and Insik Shin.
+\newblock User mobility-aware decision making for mobile computation
+  offloading.
+\newblock In {\em Cyber-Physical Systems, Networks, and Applications (CPSNA),
+  2013 IEEE 1st International Conference on}, pages 116--119. IEEE, 2013.
+
+\bibitem[MG09]{mell2009nist}
+Peter Mell and Tim Grance.
+\newblock The nist definition of cloud computing.
+\newblock {\em National Institute of Standards and Technology}, 53(6):50, 2009.
+
+\bibitem[MM09]{murarasu2009mobile}
+Alin~Florindor Murarasu and Thomas Magedanz.
+\newblock Mobile middleware solution for automatic reconfiguration of
+  applications.
+\newblock In {\em Information Technology: New Generations, 2009. ITNG'09. Sixth
+  International Conference on}, pages 1049--1055. IEEE, 2009.
+
+\bibitem[MN10]{miettinen2010energy}
+Antti~P Miettinen and Jukka~K Nurminen.
+\newblock Energy efficiency of mobile clients in cloud computing.
+\newblock In {\em Proceedings of the 2nd USENIX conference on Hot topics in
+  cloud computing}, pages 4--4. USENIX Association, 2010.
+
+\bibitem[OH98]{Othman:1998:PCS:584007.584011}
+Mazliza Othman and Stephen Hailes.
+\newblock Power conservation strategy for mobile computers using load sharing.
+\newblock {\em SIGMOBILE Mob. Comput. Commun. Rev.}, 2(1):44--51, January 1998.
+
+\bibitem[PLJC14]{7004894}
+C.~Perera, C.H. Liu, S.~Jayawardena, and Min Chen.
+\newblock A survey on internet of things from industrial market perspective.
+\newblock {\em Access, IEEE}, 2:1660--1679, 2014.
+
+\bibitem[PM83]{Powell:CSD-83-132}
+Michael~L. Powell and Barton~P. Miller.
+\newblock Process migration in demos/mp.
+\newblock Technical Report UCB/CSD-83-132, EECS Department, University of
+  California, Berkeley, Aug 1983.
+
+\bibitem[PS05]{1401839}
+J.A. Paradiso and T.~Starner.
+\newblock Energy scavenging for mobile and wireless electronics.
+\newblock {\em Pervasive Computing, IEEE}, 4(1):18--27, Jan 2005.
+
+\bibitem[RP03]{rong2003extending}
+Peng Rong and Massoud Pedram.
+\newblock Extending the lifetime of a network of battery-powered mobile devices
+  by remote processing: a markovian decision-based approach.
+\newblock In {\em Proceedings of the 40th annual Design Automation Conference},
+  pages 906--911. ACM, 2003.
+
+\bibitem[RRL{\etalchar{+}}14]{Rahimi2014}
+M.Reza Rahimi, Jian Ren, ChiHarold Liu, AthanasiosV. Vasilakos, and Nalini
+  Venkatasubramanian.
+\newblock Mobile cloud computing: A survey, state of art and future directions.
+\newblock {\em Mobile Networks and Applications}, 19(2):133--143, 2014.
+
+\bibitem[RS10]{5708456}
+A.~Ranabahu and A.~Sheth.
+\newblock Semantics centric solutions for application and data portability in
+  cloud computing.
+\newblock In {\em Cloud Computing Technology and Science (CloudCom), 2010 IEEE
+  Second International Conference on}, pages 234--241, Nov 2010.
+
+\bibitem[Ryu12]{ryu2012telemedicine}
+Seewon Ryu.
+\newblock Telemedicine: Opportunities and developments in member states: Report
+  on the second global survey on ehealth 2009 (global observatory for ehealth
+  series, volume 2).
+\newblock Technical Report~2, 2012.
+
+\bibitem[SAGB14]{sanaei2014heterogeneity}
+Zohreh Sanaei, Saeid Abolfazli, Abdullah Gani, and Rajkumar Buyya.
+\newblock Heterogeneity in mobile cloud computing: taxonomy and open
+  challenges.
+\newblock {\em Communications Surveys \& Tutorials, IEEE}, 16(1):369--392,
+  2014.
+
+\bibitem[Sat01]{943998}
+M.~Satyanarayanan.
+\newblock Pervasive computing: vision and challenges.
+\newblock {\em Personal Communications, IEEE}, 8(4):10--17, Aug 2001.
+
+\bibitem[Sat11]{Satyanarayanan:2011:MCN:2016598.2016600}
+Mahadev Satyanarayanan.
+\newblock Mobile computing: The next decade.
+\newblock {\em SIGMOBILE Mob. Comput. Commun. Rev.}, 15(2):2--10, August 2011.
+
+\bibitem[SBCD09]{5280678}
+Mahadev Satyanarayanan, P.~Bahl, R~Caceres, and N.~Davies.
+\newblock The case for vm-based cloudlets in mobile computing.
+\newblock {\em Pervasive Computing, IEEE}, 8(4):14--23, Oct 2009.
+
+\bibitem[SBH{\etalchar{+}}13]{soyata2013accelerating}
+Tolga Soyata, He~Ba, Wendi Heinzelman, Minseok Kwon, and Jiye Shi.
+\newblock Accelerating mobile cloud computing: A survey.
+\newblock {\em Communication Infrastructures for Cloud Computing}, pages
+  175--197, 2013.
+
+\bibitem[SCB11]{shivarudrappa2011cofa}
+Deepak Shivarudrappa, M~Chen, and Shashank Bharadwaj.
+\newblock Cofa: Automatic and dynamic code offload for android.
+\newblock {\em University of Colorado, Boulde}, 2011.
+
+\bibitem[SCH{\etalchar{+}}14]{7026272}
+Mahadev Satyanarayanan, Zhuo Chen, Kiryong Ha, Wenlu Hu, Wolfgang Richter, and
+  Padmanabhan Pillai.
+\newblock Cloudlets: at the leading edge of mobile-cloud convergence.
+\newblock IEEE, 11 2014.
+
+\bibitem[SMF{\etalchar{+}}12]{6249269}
+T.~Soyata, R.~Muraleedharan, C.~Funai, Minseok Kwon, and W.~Heinzelman.
+\newblock Cloud-vision: Real-time face recognition using a
+  mobile-cloudlet-cloud acceleration architecture.
+\newblock In {\em Computers and Communications (ISCC), 2012 IEEE Symposium on},
+  pages 000059--000066, July 2012.
+
+\bibitem[Tal10]{talukdar2010mobile}
+A.K. Talukdar.
+\newblock {\em Mobile Computing, 2E}.
+\newblock McGraw-Hill communications engineering series. McGraw-Hill Education
+  (India) Pvt Limited, 2010.
+
+\bibitem[tra14]{transparencymarketresearch2014}
+Mobile applications (store type - native (on-deck), third-party (off-deck))
+  market - global industry analysis, size, share, growth, trends and forecast
+  2014 - 2020.
+\newblock Technical report, Transparency Market Research, 2014.
+
+\bibitem[TYRW14]{taigman2014deepface}
+Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, and Lior Wolf.
+\newblock Deepface: Closing the gap to human-level performance in face
+  verification.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
+  Conference on}, pages 1701--1708. IEEE, 2014.
+
+\bibitem[VRC13]{6157576}
+N.~Vallina-Rodriguez and J.~Crowcroft.
+\newblock Energy management techniques in modern mobile handsets.
+\newblock {\em Communications Surveys Tutorials, IEEE}, 15(1):179--198, First
+  2013.
+
+\bibitem[WGKN08]{wolski2008using}
+Richard Wolski, Selim Gurun, Chandra Krintz, and Daniel Nurmi.
+\newblock Using bandwidth data to make computation offloading decisions.
+\newblock In {\em Parallel and Distributed Processing, 2008. IPDPS 2008. IEEE
+  International Symposium on}, pages 1--8. IEEE, 2008.
+
+\bibitem[WWP{\etalchar{+}}]{Walsh_architectureof}
+P~N Walsh, Peter~N. Walsh, D.~Phil, Tulay~A. Kansu, James~J. Corbett, Peter~J.
+  Savino, Warren~P. Goldburgh, Norman, and J.~Schatz.
+\newblock Architecture of the world wide web.
+\newblock In {\em W3C, Tech. Rep., 2004. [Online]. Available:
+  http://www.w3.org/TR/ webarch}.
+
+\end{thebibliography}
